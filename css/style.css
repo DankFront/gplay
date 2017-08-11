@@ -1,26 +1,126 @@
-#page {
-    display: grid;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+header,
+main,
+footer {
     width: 100%;
-    height: 200px;
-    grid-template: [header-left] "head head" 30px [header-right] [main-left] "nav  main" 1fr [main-right] [footer-left] "nav  foot" 30px [footer-right] / 120px 1fr;
 }
 
 header {
-    background-color: lime;
-    grid-area: head;
+    height: 50px;
+    background-color: green;
+    padding: 5px 5px;
+}
+
+header .logo {
+    float: left;
+    height: 40px;
+    width: 200px;
+}
+
+header .search {
+    position: absolute;
+    left: 200px;
+    height: 40px;
+    width: 250px;
+    background-color: grey;
+}
+
+header .search-btn {
+    background-color: blue;
+    position: absolute;
+    left: 450px;
+    height: 40px;
+    width: 40px;
+}
+
+header .options {
+    background-color: blue;
+    position: absolute;
+    right: 200px;
+    height: 40px;
+    width: 40px;
+}
+
+header .enter {
+    background-color: blue;
+    position: absolute;
+    right: 100px;
+    height: 40px;
+    width: 80px;
+}
+
+container {
+    width: 100%;
+    height: 850px;
 }
 
 nav {
-    background-color: lightblue;
-    grid-area: nav;
+    float: left;
+    width: 15%;
+    min-width: 150px;
+    height: 100%;
+    background-color: blue;
 }
 
 main {
+    position: absolute;
+    left: 15%;
+    width: 85%;
+    height: auto;
+    background-color: red;
+}
+
+main section {
+    width: 98%;
+    height: 35%;
     background-color: yellow;
-    grid-area: main;
+    padding: 50px 30px;
+    margin: 20px 20px;
+}
+
+.cat {
+    padding: 20px 2px;
+}
+
+.cat h3 {
+    font-weight: 800;
+}
+
+.col {
+    display: inline-block;
 }
 
 footer {
-    background-color: red;
-    grid-column: foot;
+    height: 50px;
+    background-color: yellow;
+}
+
+.img-responsive {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    display: block;
+}
+
+.btn-list {
+    background-color: yellow;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn-li {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.btn-li span {
+    position: absolute;
+    left: 8%;
+    padding: 20px 50px 20px 20px;
 }
