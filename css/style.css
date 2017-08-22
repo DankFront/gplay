@@ -1,5 +1,8 @@
 * {
-    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .logo {
@@ -10,4 +13,12 @@
 .navbar-header {
     margin-top: -10px;
     padding-right: 20px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.action-bar {
+    float: left;
 }
