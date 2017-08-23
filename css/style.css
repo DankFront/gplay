@@ -184,3 +184,7 @@ header {
 .navbar-white {
     background-color: white;
 }
+
+.col-section {
+    width: 300px;
+}
