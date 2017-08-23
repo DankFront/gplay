@@ -114,8 +114,12 @@ header {
 }
 
 .action-bar {
-    float: right;
     display: inline-flex;
+}
+
+.action-bar img {
+    position: absolute;
+    right: 150px;
 }
 
 .header-music {
@@ -170,4 +174,19 @@ header {
 
 .navbar-brand {
     padding-top: 0px;
+}
+
+.container-fluid-section {
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon-entre {
+    background-color: black;
+    color: white;
+}
+
+.navbar-white {
+    background-color: white;
 }
