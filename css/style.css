@@ -153,6 +153,7 @@ header {
 
 .col-md-2 {
     padding-left: 0px;
+    min-width: 220px;
 }
 
 .glyphicon-star {
