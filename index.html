@@ -22,31 +22,70 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <nav class="nav-topo">
-                <div class="logo">
-                    <a href=""> <img src="img/Google_Play_Logo.png" alt="logo" class="logo"></a>
-                </div>
-                <div id="custom-search-input">
-                    <div class="input-group search">
-                        <input type="text" class="form-control input-lg" placeholder="Buscar" />
-                        <span class="input-group-btn btn-primary">
-                        <button class="btn btn-info btn-lg" type="button">
-                            <i class="glyphicon glyphicon-search"></i>
-                        </button>
-                        </span>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                        <a class="navbar-brand" href="#">
+                            <img alt="Brand" src="img/Google_Play_Logo.png">
+                        </a>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="apps">
-                    <a href="#">
-                        <button type="button" class="list-group-item"><span class="glyphicon glyphicon-th" aria-hidden="true"></span></button>
-                    </a>
-                </div>
-                <div class="entrar">
-                    <a href="#">
-                        <button type="button" class="btn-primary">entrar</button>
-                    </a>
-                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                        <a class="navbar-brand" href="#">Section</a>
 
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
             </nav>
         </div>
     </div>
@@ -55,13 +94,10 @@
             <div class="col-md-2">
                 <div class="list-group">
                     <button type="button" class="list-group-item">
-                         <h4 class="media-heading pull-right">Entretenimento</h4>
-                    </button>
-                    <button type="button" class="list-group-item">
                         <div class="media">
                             <div class="media-left media-middle icon-app">
                                 <a href="#">
-                                    <img class="media-object" src="..." alt="...">
+                                    <span class="glyphicon glyphicon-ice-lolly-tasted" aria-hidden="true" style="font-size: 40px; color: white; padding: 15px;"></span>
                                 </a>
                             </div>
                             <div class="media-body media-middle">
@@ -73,7 +109,7 @@
                         <div class="media">
                             <div class="media-left media-middle icon-filmes">
                                 <a href="#">
-                                    <img class="media-object" src="..." alt="...">
+                                    <span class="glyphicon glyphicon-film" aria-hidden="true" style="font-size: 40px; color: white; padding: 15px;"></span>
                                 </a>
                             </div>
                             <div class="media-body media-middle">
@@ -85,7 +121,7 @@
                         <div class="media">
                             <div class="media-left media-middle icon-musica">
                                 <a href="#">
-                                    <img class="media-object" src="..." alt="...">
+                                    <span class="glyphicon glyphicon-music" aria-hidden="true" style="font-size: 40px; color: white; padding: 15px;"></span>
                                 </a>
                             </div>
                             <div class="media-body media-middle">
@@ -97,7 +133,7 @@
                         <div class="media">
                             <div class="media-left media-middle icon-livros">
                                 <a href="#">
-                                    <img class="media-object" src="..." alt="...">
+                                    <span class="glyphicon glyphicon-book" aria-hidden="true" style="font-size: 40px; color: white; padding: 15px;"></span>
                                 </a>
                             </div>
                             <div class="media-body media-middle">
@@ -109,7 +145,7 @@
                         <div class="media">
                             <div class="media-left media-middle icon-disp">
                                 <a href="#">
-                                    <img class="media-object" src="..." alt="...">
+                                    <span class="glyphicon glyphicon-modal-window" aria-hidden="true" style="font-size: 40px; color: white; padding: 15px;"></span>
                                 </a>
                             </div>
                             <div class="media-body media-middle">
@@ -124,17 +160,7 @@
                     <button type="button" class="list-group-item">Vestibulum at eros</button>
                 </div>
             </div>
-            <div class="col-md-10">
-                <div class="row white">
-                    <nav class="action-bar">
-                        <a href="#">
-                            <button type="button" class="list-group-item"><span class="glyphicon glyphicon-th" aria-hidden="true"></span></button>
-                        </a>
-                        <a href="#">
-                            <button type="button" class="list-group-item"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></button>
-                        </a>
-                    </nav>
-                </div>
+            <div class="col-md-9">
                 <div class="row">
                     <header>
                         <div class="header-music">
@@ -152,27 +178,80 @@
                     <img class="img-responsive" src="img/guardians.jpg" alt="">
                     <h4 class="text-left">title</h4>
                     <h5 class="text-left">sub title</h5>
-                </div>
-                <div class="col-md-2">
-                    <img class="img-responsive" src="img/fastnfurious.jpg" alt="">
-                    <h4 class="text-left">title</h4>
-                    <h5 class="text-left">sub title</h5>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-sm-5">preco<span class="glyphicon glyphicon-euro" aria-hidden="true"></span></div>
+                    </div>
+
                 </div>
                 <div class="col-md-2">
                     <img class="img-responsive" src="img/kong.jpg" alt="">
                     <h4 class="text-left">title</h4>
                     <h5 class="text-left">sub title</h5>
-                </div>
-                <div class="col-md-2">
-                    <img class="img-responsive" src="img/ghost.jpg" alt="">
-                    <h4 class="text-left">title</h4>
-                    <h5 class="text-left">sub title</h5>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-sm-5">preco<span class="glyphicon glyphicon-euro" aria-hidden="true"></span></div>
+                    </div>
                 </div>
                 <div class="col-md-2">
                     <img class="img-responsive" src="img/logan.jpg" alt="">
                     <h4 class="text-left">title</h4>
                     <h5 class="text-left">sub title</h5>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-sm-5">preco<span class="glyphicon glyphicon-euro" aria-hidden="true"></span></div>
+                    </div>
                 </div>
+                <div class="col-md-2">
+                    <img class="img-responsive" src="img/fastnfurious.jpg" alt="">
+                    <h4 class="text-left">title</h4>
+                    <h5 class="text-left">sub title</h5>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-sm-5">preco<span class="glyphicon glyphicon-euro" aria-hidden="true"></span></div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <img class="img-responsive" src="img/ghost.jpg" alt="">
+                    <h4 class="text-left">title</h4>
+                    <h5 class="text-left">sub title</h5>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-sm-5">preco<span class="glyphicon glyphicon-euro" aria-hidden="true"></span></div>
+                    </div>
+                </div>
+
 
             </div>
 
