@@ -188,3 +188,7 @@ header {
 .col-section {
     width: 300px;
 }
+
+.account .list-group-item {
+    padding: 15px;
+}
