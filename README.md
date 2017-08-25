@@ -1,4 +1,3 @@
-# gplay
+# Gplay
 
-in progress click <a href="https://elthask.github.io/gplay/.">here</a>
-
+Click <a href ="https://elthask.github.io/Gplay/">here</a> to see
